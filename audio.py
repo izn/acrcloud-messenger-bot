@@ -11,7 +11,7 @@ import dotenv
 dotenv.load_dotenv(dotenv.find_dotenv(), override=True)
 
 # ACRCloud config
-host = "http://identify-eu-west-1.acrcloud.com/v1/identify"
+host = os.environ.get('ACRCLOUD_HOST')
 access_key = os.environ.get('ACRCLOUD_ACCESS_KEY')
 access_secret = os.environ.get('ACRCLOUD_SECRET_KEY')
 
