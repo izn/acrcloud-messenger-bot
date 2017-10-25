@@ -12,6 +12,7 @@ requests = "*"
 flask = "*"
 python-dotenv = "*"
 messenger = "*"
+gunicorn = "*"
 
 
 [dev-packages]

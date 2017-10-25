@@ -1,5 +1,6 @@
 mlabs_messenger==0.1.2
-requests==2.18.4
 Flask==0.12.2
+requests==2.18.4
 python-dotenv==0.7.1
 messenger==1.0
+gunicorn==19.7.1
