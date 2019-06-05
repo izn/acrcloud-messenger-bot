@@ -1,18 +1,14 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
-mlabs-messenger = "*"
-requests = "*"
-flask = "*"
-python-dotenv = "*"
-messenger = "*"
+mlabs-messenger = {git = "https://github.com/izn/mlabs-messenger"}
+requests = "==2.18.4"
+flask = "==1.0.2"
+python-dotenv = "==0.10.3"
+messenger = "==1.0"
 gunicorn = "*"
-
 
 [dev-packages]
